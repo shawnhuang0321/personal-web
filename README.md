@@ -1,2 +1,2 @@
-# This is my Personal Web
+# Personal Web
 * Using HTML/CSS/Bootstrap/jQuery
