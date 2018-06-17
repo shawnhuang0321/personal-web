@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.opa-0{
+    opacity: 0;
+}
+.navbar{
+    background-color: black;
+    opacity: 0;
+}
+.fas.fa-bars{
+    font-size: 2em;
+}
+.logo:hover{
+    text-decoration: none;
+}
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-delay: 0.8s;
+}
+.banner::before{
+    display: block;
+    background-color: #000;
+    opacity: 0.65;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    content: '';
+}
+.inner{
+    z-index: 2;
+    opacity: 1;
+    position: relative;
+    animation-delay: 1.8s;
+}
+.banner h1{
+    color: #FFF;
+    font-size: 4em;
+}
+.banner p{
+    color: silver;
+    font-size: 2em;
+}
+.img-border{
+    border: 1px solid silver;
+}
+.about h2{
+    font-size: 4em;
+}
+.about li{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+.bg{
+    background-color: #F4F1F0;
+    
+}
+.fab.fa-css3-alt{
+    color: #229FDF;
+    font-size: 5.5em;
+}
+.fab.fa-js-square{
+    color: #FFDA3E;
+    font-size: 5em;
+}
+.fab.fa-github{
+    color: #000;
+    font-size: 5em;
+}
+.fab.fa-python{
+    color: #326A9B;
+    font-size: 5em;
+}
+.skill-title{
+    font-size: 2.5em;
+}
+.skillbar{
+    width: 100%;
+    height: 50px;
+    background-color: dimgrey;
+    border-radius: 15px;
+    position: relative;
+}
+.skillbar-top{
+    width: 0%;
+    height: 50px;
+    position: absolute;
+    background-color: blue;
+    border-radius: 15px 0px 0px 15px;
+    color: aliceblue;
+    opacity: 0;
+    animation: barrun01 3s forwards;
+}
+.skillbar-top-2{
+    width: 0%;
+    height: 50px;
+    position: absolute;
+    background-color: blue;
+    border-radius: 15px 0px 0px 15px;
+    color: aliceblue;
+    opacity: 0;
+    animation: barrun02 3s forwards;
+}
+.skillbar-top-3{
+    width: 0%;
+    height: 50px;
+    position: absolute;
+    background-color: blue;
+    border-radius: 15px 0px 0px 15px;
+    color: aliceblue;
+    opacity: 0;
+    animation: barrun03 3s forwards;
+}
+/* barrun */
+@keyframes barrun01{
+    from{width: 0%;opacity: 0;}
+    to{width: 80%;opacity: 1;}
+}
+@keyframes barrun02{
+    from{width: 0%;opacity: 0;}
+    to{width: 40%;opacity: 1;}
+}
+@keyframes barrun03{
+    from{width: 0%;opacity: 0;}
+    to{width: 10%;opacity: 1;}
+}
+/* barrun end */
+.workbox{
+    border: 2px solid dimgray;
+    border-radius: 15px;
+    padding: 1%;
+    margin: 5px 1%;
+}
+/* work hover */
+
+/* work hover end */
+.icons{
+    margin-top: 150px;
+}
+.icons a{
+    color: #999;
+    font-size: 2.5em;
+    margin: 0 20px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 4px #fff, 0px 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+}
+.icons a:hover{
+    text-decoration: none;
+}
+.top{
+    color: #999;
+    padding: 8px;
+    font-size: 3em;
+    border: #999 2px solid;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px dimgray;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    transition: all .1s;
+    opacity: 0;
+}
+.top:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: dimgray;
+}
