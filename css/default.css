@@ -8,6 +8,7 @@
 .navbar{
     background-color: black;
     opacity: 0;
+    box-shadow: 0 2px 5px gray;
 }
 .fas.fa-bars{
     font-size: 2em;
@@ -145,7 +146,31 @@
     margin: 5px 1%;
 }
 /* work hover */
-
+.work-img-box{
+    width: 100%;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 11.5%;
+    background-color: black;
+    width: 77%;
+    height: 100%;
+    transition: all .3s ease;
+    opacity: 0;
+}
+.txt{
+    font-size: 28px;
+    color: aliceblue;
+}
+.txt:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+.work-img-box:hover .overlay{
+    opacity: .8;
+}
 /* work hover end */
 .icons{
     margin-top: 150px;

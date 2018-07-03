@@ -39,10 +39,10 @@ $(document).ready(function(){
     // 文件捲動向下，顯示top鈕，向上則隱藏
     $(document).scroll(function(){
         var scrollnum = $(window).scrollTop();
-        if(scrollnum>2000){
+        if(scrollnum>2200){
             $('#contact').stop().animate({opacity:'1'},1000);
         }
-        else if(scrollnum>1400){
+        else if(scrollnum>1600){
             $('#work').stop().animate({opacity:'1'},1000);
         }
         else if(scrollnum>800){
