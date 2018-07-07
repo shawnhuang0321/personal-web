@@ -45,8 +45,11 @@ $(document).ready(function(){
         else if(scrollnum>1600){
             $('#work').stop().animate({opacity:'1'},1000);
         }
-        else if(scrollnum>800){
+        else if(scrollnum>1100){
             $('#skill').stop().animate({opacity:'1'},1000);
+            $('.sk01').addClass('bar-run-1');
+            $('.sk02').addClass('bar-run-2');
+            $('.sk03').addClass('bar-run-3');
         }
         else if(scrollnum>300){
             $('.top').stop().animate({opacity:'1'},500);

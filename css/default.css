@@ -103,26 +103,14 @@
     border-radius: 15px 0px 0px 15px;
     color: aliceblue;
     opacity: 0;
+}
+.bar-run-1{
     animation: barrun01 3s forwards;
 }
-.skillbar-top-2{
-    width: 0%;
-    height: 50px;
-    position: absolute;
-    background-color: blue;
-    border-radius: 15px 0px 0px 15px;
-    color: aliceblue;
-    opacity: 0;
+.bar-run-2{
     animation: barrun02 3s forwards;
 }
-.skillbar-top-3{
-    width: 0%;
-    height: 50px;
-    position: absolute;
-    background-color: blue;
-    border-radius: 15px 0px 0px 15px;
-    color: aliceblue;
-    opacity: 0;
+.bar-run-3{
     animation: barrun03 3s forwards;
 }
 /* barrun */
