@@ -81,8 +81,8 @@
     color: #000;
     font-size: 5em;
 }
-.fab.fa-python{
-    color: #326A9B;
+.fab.fa-vuejs{
+    color: #41b883;
     font-size: 5em;
 }
 .skill-title{
@@ -120,11 +120,11 @@
 }
 @keyframes barrun02{
     from{width: 0%;opacity: 0;}
-    to{width: 40%;opacity: 1;}
+    to{width: 60%;opacity: 1;}
 }
 @keyframes barrun03{
     from{width: 0%;opacity: 0;}
-    to{width: 10%;opacity: 1;}
+    to{width: 50%;opacity: 1;}
 }
 /* barrun end */
 .workbox{
